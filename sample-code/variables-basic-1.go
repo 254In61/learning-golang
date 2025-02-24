@@ -37,6 +37,36 @@ func main() {
     fmt.Printf("\nThe value of myvariable3 is : %f\n", myvariable3) 
   
     fmt.Printf("The type of myvariable3 is : %T\n", myvariable3) 
+
+
+	// Using short variable declaration 
+    myvar1 := 39 
+    myvar2 := "GeeksforGeeks" 
+    myvar3 := 34.67
+  
+   // Display the value and type of the variables 
+   fmt.Printf("The value of myvar1 is : %d\n", myvar1) 
+   fmt.Printf("The type of myvar1 is : %T\n", myvar1) 
+  
+   fmt.Printf("\nThe value of myvar2 is : %s\n", myvar2) 
+   fmt.Printf("The type of myvar2 is : %T\n", myvar2) 
+  
+   fmt.Printf("\nThe value of myvar3 is : %f\n", myvar3) 
+   fmt.Printf("The type of myvar3 is : %T\n", myvar3) 
+
+   // Using short variable declaration you are allowed to declare multiple variables of different types in the single declaration. 
+   // The type of these variables are determined by the expression.
+   myvar1, myvar2, myvar3 := 800, "Geeks", 47.56
+  
+   // Display the value and type of the variables 
+   fmt.Printf("The value of myvar1 is : %d\n", myvar1) 
+   fmt.Printf("The type of myvar1 is : %T\n", myvar1) 
+  
+   fmt.Printf("\nThe value of myvar2 is : %s\n", myvar2) 
+   fmt.Printf("The type of myvar2 is : %T\n", myvar2) 
+  
+   fmt.Printf("\nThe value of myvar3 is : %f\n", myvar3) 
+   fmt.Printf("The type of myvar3 is : %T\n", myvar3) 
 } 
 	
 

@@ -205,3 +205,36 @@ https://www.geeksforgeeks.org/data-types-in-go/
   - In the above syntax, either type or = expression can be omitted, but NOT both
   - If the '=' expression is omitted, then the variable holds zero-value for the type like zero for the number, false for Booleans, “” for strings, and nil for interface and reference type. So, there is no such concept of an uninitialized variable in Go language.
   - If you remove type, then you are allowed to declare multiple variables of a different type in the single declaration. The type of variables is determined by the initialized values.
+
+2. Using short variable declaration: The local variables which are declared and initialize in the functions are declared by using short variable declaration.
+
+  variable_name:= expression
+
+  In the above expression, the type of the variable is determined by the type of the expression.
+
+# rune
+https://www.geeksforgeeks.org/rune-in-golang/
+
+
+# operators
+Operators are the foundation of any programming language. Thus the functionality of the Go language is incomplete without the use of operators. Operators allow us to perform different kinds of operations on operands. In the Go language, operators Can be categorized based on their different functionality:
+
+1. Arithmetic Operators : These are used to perform arithmetic/mathematical operations on operands in Go language
+   - Addition: The ‘+’ operator adds two operands. For example, x+y.
+   - Subtraction: The ‘-‘ operator subtracts two operands. For example, x-y.
+   - Multiplication: The ‘*’ operator multiplies two operands. For example, x*y.
+   - Division: The ‘/’ operator divides the first operand by the second. For example, x/y.
+   - Modulus: The ‘%’ operator returns the remainder when the first operand is divided by the second. For example, x%y.
+
+2. Relational Operators : Relational operators are used for the comparison of two values.
+   - ‘=='(Equal To) operator checks whether the two given operands are equal or not. If so, it returns true. Otherwise, it returns false. For example, 5==5 will return true.
+   - ‘!='(Not Equal To) operator checks whether the two given operands are equal or not. If not, it returns true. Otherwise, it returns false. It is the exact boolean complement of the ‘==’ operator. For example, 5!=5 will return false.
+   - ‘>'(Greater Than)operator checks whether the first operand is greater than the second operand. If so, it returns true. Otherwise, it returns false. For example, 6>5 will return true.
+   - ‘<‘(Less Than)operator checks whether the first operand is lesser than the second operand. If so, it returns true. Otherwise, it returns false. For example, 6<5 will return false.
+   - ‘>='(Greater Than Equal To)operator checks whether the first operand is greater than or equal to the second operand. If so, it returns true. Otherwise, it returns false. For example, 5>=5 will return true.
+   - ‘<='(Less Than Equal To)operator checks whether the first operand is lesser than or equal to the second operand. If so, it returns true. Otherwise, it returns false. For example, 5<=5 will also return true.
+   
+3. Logical Operators
+4. Bitwise Operators
+5. Assignment Operators
+6. Misc Operators
